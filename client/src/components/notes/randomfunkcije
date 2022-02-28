@@ -1,0 +1,16 @@
+localStorage.clear();
+
+
+window.location.reload(false);
+
+
+let str = "Hello People";
+let enc = btoa(str);
+console.log(enc); // Outputs: "SGVsbG8gUGVvcGxl"
+let dec = atob(enc);
+console.log(dec); // Outputs: "Hello People"
+
+
+
+// import { FaGithub } from "react-icons/fa";
+// <FaGithub />
