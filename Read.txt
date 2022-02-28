@@ -1,4 +1,4 @@
-//pokretanje  aplikacije
+//pokretanje  projekta
 cd ./client
 npm i
 npm start
